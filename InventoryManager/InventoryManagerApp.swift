@@ -11,7 +11,9 @@ import SwiftUI
 struct InventoryManagerApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NavigationStack {
+                LandingPageView()
+            }
         }
     }
 }
