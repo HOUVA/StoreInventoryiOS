@@ -2,8 +2,11 @@
 //  AddNewItemView.swift
 //  InventoryManager
 //
+//  View to take user input for a name, cost, and amount and creates a new InventoryItemObject to be passed into InventoryItemView when called from LandingPageView
+//
 //  Created by Matthew Suggars on 4/30/23.
 //
+//  5/11/23 Biggest focus is to work on the button needs functionality and better styling
 
 import SwiftUI
 
@@ -37,7 +40,6 @@ struct AddNewItemView: View {
                 .cornerRadius(10)
             }
             .navigationTitle("Add Item")
-            
             
         }
     }
